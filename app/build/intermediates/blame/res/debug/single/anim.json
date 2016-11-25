@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\alpha.xml",
+        "source": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\src\\main\\res\\anim\\alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\translate.xml",
+        "source": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\src\\main\\res\\anim\\translate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\out.xml",
+        "source": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\src\\main\\res\\anim\\out.xml"
+    }
+]

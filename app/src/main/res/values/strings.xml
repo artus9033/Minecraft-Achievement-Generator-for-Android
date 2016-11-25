@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Minecraft Achievement Generator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_zacznij">Generate Achievement!</string>
+    <string name="splash">Minecraft Achievement Generator\nby artus9033</string>
+</resources>

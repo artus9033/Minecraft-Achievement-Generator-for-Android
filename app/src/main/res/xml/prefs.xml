@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceCategory
+	android:title="Achievement Export" 
+	android:summary="Achievement image compression format and quality">
+		<ListPreference
+			android:entries="@array/listOptions"
+			android:entryValues="@array/listValues"
+			android:key="MAG_IMG_TYPE"
+			android:summary="Exported achievement format"
+			android:title="Image Format" />
+		<ListPreference
+			android:entries="@array/qualities"
+			android:entryValues="@array/qualitiesValues"
+			android:key="MAG_IMG_QUALITY"
+			android:summary="Note: file size is increased within high quality"
+			android:title="Image Quality" />
+		</PreferenceCategory>
+</PreferenceScreen>

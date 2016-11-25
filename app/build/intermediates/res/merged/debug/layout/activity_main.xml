@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:fab="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/container">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context=".MainActivity">
+
+		<pl.artus.mcpe.mag.ArtusIconButton
+			android:id="@+id/kolorgl"
+			android:layout_width="match_parent"
+			android:layout_height="50dip"/>
+
+		<TextView
+			android:id="@+id/kl"
+			android:layout_width="match_parent"
+			android:layout_height="50dip"
+			android:layout_below="@id/kolorgl"/>
+
+		<pl.artus.mcpe.mag.DrawingView
+			android:id="@+id/canvas"
+			android:layout_below="@id/kl"
+			android:layout_width="match_parent"
+			android:layout_height="250dp"
+			android:layout_centerHorizontal="true"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true"
+			android:gravity="center"/>
+
+		<EditText
+			android:id="@+id/g_tekst"
+			android:singleLine="true"
+			android:layout_width="fill_parent"
+			android:layout_height="55sp"
+			android:layout_below="@+id/canvas"
+			android:textCursorDrawable="@drawable/feather"/>
+
+		<EditText
+			android:id="@+id/s_tekst"
+			android:singleLine="true"
+			android:layout_width="fill_parent"
+			android:layout_height="55sp"
+			android:layout_below="@+id/g_tekst"
+			android:textCursorDrawable="@drawable/feather"/>
+
+	</RelativeLayout>
+
+</ScrollView>
+

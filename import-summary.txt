@@ -1,0 +1,104 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+C:\Users\Artur\Documents\Android Studio Projects\MAG-Minecraft-Achievement-Generator-for-Android
+                                -      -                                                        
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* LICENSE
+* Minecraft-Achievement-Generator-for-Android.iml
+* README.md
+* out\
+* out\production\
+* out\production\Minecraft-Achievement-Generator-for-Android\
+* out\production\Minecraft-Achievement-Generator-for-Android\Minecraft-Achievement-Generator-for-Android.apk
+* out\production\Minecraft-Achievement-Generator-for-Android\Minecraft-Achievement-Generator-for-Android.unaligned.apk
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\ArtusIconButton.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\BuildConfig.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\DrawingView$1.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\DrawingView.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\FloatingActionButton$Builder.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\FloatingActionButton.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\FontLoader.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\GridViewAdapter$ViewHolder.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\GridViewAdapter.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\ImageItem.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\MainActivity$1.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\MainActivity$2.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\MainActivity$3.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\MainActivity$4.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\MainActivity$5.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\MainActivity$6$1.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\MainActivity$6.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\MainActivity.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R$anim.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R$array.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R$attr.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R$color.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R$dimen.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R$drawable.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R$id.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R$layout.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R$menu.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R$raw.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R$string.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R$style.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R$styleable.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R$xml.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\R.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\Settings.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\SplashActivity$1.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\SplashActivity$2$1.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\SplashActivity$2.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\SplashActivity$3.class
+* out\production\Minecraft-Achievement-Generator-for-Android\pl\artus\mcpe\mag\SplashActivity.class
+* proguard.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

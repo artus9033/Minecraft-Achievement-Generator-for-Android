@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid.xml",
+        "source": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\src\\main\\res\\layout\\grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
+        "source": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\src\\main\\res\\layout\\grid_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash.xml",
+        "source": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\src\\main\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tip.xml",
+        "source": "C:\\Users\\Artur\\Documents\\Android Studio Projects\\MAG-Minecraft-Achievement-Generator-for-Android\\app\\src\\main\\res\\layout\\tip.xml"
+    }
+]
